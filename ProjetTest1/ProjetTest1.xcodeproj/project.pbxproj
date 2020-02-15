@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE42C44723F4894D00935F36 /* polytech.png in Resources */ = {isa = PBXBuildFile; fileRef = AE42C44623F4894D00935F36 /* polytech.png */; };
+		AE42C44923F4967400935F36 /* AddPersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE42C44823F4967400935F36 /* AddPersonController.swift */; };
+		AEA7745E23F6E36600F51062 /* PersonSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA7745D23F6E36600F51062 /* PersonSet.swift */; };
+		AEA7746123F6E49300F51062 /* PersonSetObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA7746023F6E49300F51062 /* PersonSetObserver.swift */; };
+		AEC50F9823F31066005F383F /* PersonCellId.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC50F9723F31066005F383F /* PersonCellId.swift */; };
+		AEE9D4B823F34BCC00C1342B /* ViewDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE9D4B723F34BCC00C1342B /* ViewDetailController.swift */; };
 		C9D3EC8623F2E56A00C7E119 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D3EC8523F2E56A00C7E119 /* Person.swift */; };
 		C9D3EC8A23F2FF1200C7E119 /* tabPersonDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D3EC8923F2FF1200C7E119 /* tabPersonDataSource.swift */; };
 		C9D9E53623F1C150008CDD49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D9E53523F1C150008CDD49 /* AppDelegate.swift */; };
@@ -29,6 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE42C44623F4894D00935F36 /* polytech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = polytech.png; path = ../../../../polytech.png; sourceTree = "<group>"; };
+		AE42C44823F4967400935F36 /* AddPersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonController.swift; sourceTree = "<group>"; };
+		AEA7745D23F6E36600F51062 /* PersonSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSet.swift; sourceTree = "<group>"; };
+		AEA7746023F6E49300F51062 /* PersonSetObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonSetObserver.swift; sourceTree = "<group>"; };
+		AEC50F9723F31066005F383F /* PersonCellId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCellId.swift; sourceTree = "<group>"; };
+		AEE9D4B723F34BCC00C1342B /* ViewDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDetailController.swift; sourceTree = "<group>"; };
 		C9D3EC8523F2E56A00C7E119 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		C9D3EC8923F2FF1200C7E119 /* tabPersonDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabPersonDataSource.swift; sourceTree = "<group>"; };
 		C9D9E53223F1C150008CDD49 /* ProjetTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +74,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AEA7745C23F6E23100F51062 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEA7745D23F6E36600F51062 /* PersonSet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AEA7745F23F6E47A00F51062 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				AEA7746023F6E49300F51062 /* PersonSetObserver.swift */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
 		C9D9E52923F1C150008CDD49 = {
 			isa = PBXGroup;
 			children = (
@@ -83,15 +111,21 @@
 		C9D9E53423F1C150008CDD49 /* ProjetTest1 */ = {
 			isa = PBXGroup;
 			children = (
+				AEA7745F23F6E47A00F51062 /* Observer */,
+				AEA7745C23F6E23100F51062 /* Model */,
+				AE42C44623F4894D00935F36 /* polytech.png */,
 				C9D9E53523F1C150008CDD49 /* AppDelegate.swift */,
-				C9D9E53723F1C150008CDD49 /* SceneDelegate.swift */,
 				C9D9E53923F1C150008CDD49 /* ViewController.swift */,
+				C9D9E53723F1C150008CDD49 /* SceneDelegate.swift */,
 				C9D3EC8923F2FF1200C7E119 /* tabPersonDataSource.swift */,
 				C9D9E53B23F1C150008CDD49 /* Main.storyboard */,
 				C9D9E53E23F1C153008CDD49 /* Assets.xcassets */,
 				C9D9E54023F1C153008CDD49 /* LaunchScreen.storyboard */,
 				C9D9E54323F1C153008CDD49 /* Info.plist */,
 				C9D3EC8523F2E56A00C7E119 /* Person.swift */,
+				AEC50F9723F31066005F383F /* PersonCellId.swift */,
+				AEE9D4B723F34BCC00C1342B /* ViewDetailController.swift */,
+				AE42C44823F4967400935F36 /* AddPersonController.swift */,
 			);
 			path = ProjetTest1;
 			sourceTree = "<group>";
@@ -189,6 +223,7 @@
 				C9D9E54223F1C153008CDD49 /* LaunchScreen.storyboard in Resources */,
 				C9D9E53F23F1C153008CDD49 /* Assets.xcassets in Resources */,
 				C9D9E53D23F1C150008CDD49 /* Main.storyboard in Resources */,
+				AE42C44723F4894D00935F36 /* polytech.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,11 +241,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE42C44923F4967400935F36 /* AddPersonController.swift in Sources */,
 				C9D9E53A23F1C150008CDD49 /* ViewController.swift in Sources */,
 				C9D9E53623F1C150008CDD49 /* AppDelegate.swift in Sources */,
+				AEA7746123F6E49300F51062 /* PersonSetObserver.swift in Sources */,
 				C9D3EC8623F2E56A00C7E119 /* Person.swift in Sources */,
+				AEA7745E23F6E36600F51062 /* PersonSet.swift in Sources */,
+				AEC50F9823F31066005F383F /* PersonCellId.swift in Sources */,
 				C9D9E53823F1C150008CDD49 /* SceneDelegate.swift in Sources */,
 				C9D3EC8A23F2FF1200C7E119 /* tabPersonDataSource.swift in Sources */,
+				AEE9D4B823F34BCC00C1342B /* ViewDetailController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

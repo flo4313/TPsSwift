@@ -11,13 +11,7 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var tabPerson = [
-        Person(firstname: "Alexandre", lastname: "Girbal", job:"responsable technique", department:"IG4"),
-        Person(firstname: "Jeremie", lastname: "Dumont", job:"responsable technique", department:"IG4"),
-        Person(firstname: "Alexandre", lastname: "Girbal", job:"responsable technique", department:"IG4"),
-        Person(firstname: "Alexandre", lastname: "Girbal", job:"responsable technique", department:"IG4"),
-        Person(firstname: "Alexandre", lastname: "Girbal", job:"responsable technique", department:"IG4"),
-    ]
+    var tabPerson = PersonSet()
     
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
